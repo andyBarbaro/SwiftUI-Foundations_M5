@@ -11,7 +11,7 @@ struct Module: Identifiable, Decodable {
     
     var id:Int
     var category:String
-    var content: [Content]
+    var content: Content
     var test:Test
     
 }
@@ -21,6 +21,7 @@ struct Content: Identifiable, Decodable {
     var id:Int
     var image:String
     var time:String
+    var description:String
     var lessons:[Lesson]
     
 }
@@ -39,7 +40,7 @@ struct Test: Identifiable, Decodable {
     
     var id:Int
     var image:String
-    var tiem:String
+    var time:String
     var description:String
     var questions:[Question]
     
