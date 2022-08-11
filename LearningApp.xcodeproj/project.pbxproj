@@ -23,6 +23,7 @@
 		A1167BA8288B2F1F002B72A7 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1167BA7288B2F1F002B72A7 /* CodeTextView.swift */; };
 		A1167BAE288B45FF002B72A7 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = A1167BAD288B45FF002B72A7 /* style.html */; };
 		A1A9BB9F288F154400A31BEA /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9BB9E288F154400A31BEA /* RectangleCard.swift */; };
+		A1A9BBBF289098C800A31BEA /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A9BBBE289098C800A31BEA /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		A1167BA7288B2F1F002B72A7 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		A1167BAD288B45FF002B72A7 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = style.html; path = ../../../../../../../.Trash/style.html; sourceTree = "<group>"; };
 		A1A9BB9E288F154400A31BEA /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		A1A9BBBE289098C800A31BEA /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A1167B612889AB83002B72A7 /* ContentView.swift */,
 				A1167B632889B498002B72A7 /* ContentViewRow.swift */,
 				A1167B652889B683002B72A7 /* ContentDetailView.swift */,
+				A1A9BBBE289098C800A31BEA /* TestView.swift */,
 				A1167BA7288B2F1F002B72A7 /* CodeTextView.swift */,
 				A1A9BB9E288F154400A31BEA /* RectangleCard.swift */,
 			);
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A9BBBF289098C800A31BEA /* TestView.swift in Sources */,
 				A1167B602888C48E002B72A7 /* HomeViewRow.swift in Sources */,
 				A1167B4728889895002B72A7 /* HomeView.swift in Sources */,
 				A1167B622889AB83002B72A7 /* ContentView.swift in Sources */,
