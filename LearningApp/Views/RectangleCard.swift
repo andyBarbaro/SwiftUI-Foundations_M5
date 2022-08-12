@@ -19,9 +19,3 @@ struct RectangleCard: View {
             
     }
 }
-
-struct RectangleCard_Previews: PreviewProvider {
-    static var previews: some View {
-        RectangleCard()
-    }
-}
